@@ -250,7 +250,7 @@ int main(const int argc, char **argv) {
     }
 
     std::vector<std::pair<std::streampos, std::vector<std::uint8_t> > > patches = {
-        // Remote code execution exploit
+/*      // Remote code execution exploit
         {0x2A7, {0xC0}},
         // Windowed mode to full screen
         {0xE94, {0xEB}},
@@ -267,7 +267,7 @@ int main(const int argc, char **argv) {
         // Area trigger timer precision
         {0x2DB241, {50}},
         // Blue Moon
-        {0x5CFBC0, {0xC7, 0x05, 0x74, 0x8E, 0xD3, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xC3}},
+        {0x5CFBC0, {0xC7, 0x05, 0x74, 0x8E, 0xD3, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xC3}}, */
         // Mouse flickering and camera snapping issue when mouse has high report rate
         {0x469A2C, {0xE9, 0x71, 0xF0, 0x0B, 0x00, 0xF8, 0x13, 0xD4, 0x00, 0x8B, 0x1D, 0xFC}},
         {
