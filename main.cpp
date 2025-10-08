@@ -20,7 +20,7 @@ std::fstream wowExe;
  * It is used during the validation process to ensure that the file has not
  * been modified or corrupted.
  */
-constexpr std::streamsize kExpectedSize = 0x757C00;
+constexpr std::streamsize kExpectedSize = 0x758E98;
 
 /**
  * Checks for errors in a given output stream and logs an error message if any error is detected.
